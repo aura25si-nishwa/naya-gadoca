@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\AdminController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -9,4 +10,4 @@ Route::get('/', function () {
 
 route::get('dashboard',[DashboardController::class,'index'])->name('dashboard');
 
-oute::get('dashboard',[AdminController::class,'index'])->name('dashboardAdmin');
+Route::get('admin', [AdminController::class, 'index'])->name('dashboardAdmin');
