@@ -8,3 +8,5 @@ Route::get('/', function () {
 });
 
 route::get('dashboard',[DashboardController::class,'index'])->name('dashboard');
+
+oute::get('dashboard',[AdminController::class,'index'])->name('dashboardAdmin');
