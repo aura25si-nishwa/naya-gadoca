@@ -58,13 +58,12 @@
          NAVBAR
          ============================================================ -->
       <nav class="navbar navbar-expand-lg" id="nav">
-         <div class="container">
-            <a class="navbar-brand" href="#">
-               <div class="blogo">
-                  <div class="bico"><div class="ico">
-    <img src="{{ asset('assets-guest/sarab/img/logo-gadoca.png') }}" alt="Gadoca"></div>
-                  <div>
-
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <div class="blogo">
+                <div class="bico">
+                    <img src="{{ asset('assets/assets-guest/sarab/img/logo-gadoca.png') }}" alt="Logo Gadoca">
+                </div>
                      <div class="bname">gad<span>oca</span></div>
                      <div class="bsub">coffeshop & house</div>
                   </div>
