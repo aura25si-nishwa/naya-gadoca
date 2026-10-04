@@ -223,7 +223,7 @@
         <div class="dropdown ms-2">
           <button class="navbar-profile-btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
             aria-expanded="false" id="profile-dropdown">
-            <img src="{{ asset('assets/assets-admin/images/avatar.png')}}" alt="Profile Image" class="navbar-profile-img">
+            <img src="{{ asset('assets/assets-admin/images/logo-gadoca.png')}}" alt="Profile Image" class="navbar-profile-img">
             <span class="navbar-profile-name d-none d-md-inline">Administrator</span>
             <i class="bi bi-chevron-down navbar-profile-caret"></i>
           </button>
@@ -246,8 +246,8 @@
     <!-- START: Dashboard Header Banner -->
     <div class="page-header">
       <div>
-        <h1 class="page-title">Dashboard</h1>
-        <p class="page-subtitle">An easy way to manage sales with care and precision.</p>
+        <h1 class="page-title">Admin Gadoca</h1>
+        <p class="page-subtitle">slamat masuk admin gadoca</p>
       </div>
       <button class="btn-date-picker" type="button" id="date-picker-trigger">
         <i class="bi bi-calendar4-event"></i>
