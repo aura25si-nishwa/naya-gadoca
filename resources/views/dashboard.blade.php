@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="author" content="Sarab">
-      <meta name="description" content="Sarab - Fast Food & Restaurant HTML Template">
-      <title>Sarab - Fast Food & Restaurant HTML Template</title>
-      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet"/>
-      <!-- Bootstrap 5.3 -->
-      <link href="css/bootstrap.min.css" rel="stylesheet"/>
-      <!-- AOS Animate on Scroll -->
-      <link href="css/aos.css" rel="stylesheet"/>
-      <!-- Swiper -->
-      <link href="css/swiper-bundle.min.css" rel="stylesheet"/>
-      <!-- all min css -->
-      <link rel="stylesheet" href="css/all.min.css"/>
-      <!-- magnific CSS -->
-      <link rel="stylesheet" href="css/magnific-popup.css"/>
-      <!-- Style CSS -->
-      <link rel="stylesheet" href="css/style.css" />
-   </head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Sarab">
+    <meta name="description" content="Sarab - Fast Food & Restaurant HTML Template">
+
+    <title>Sarab - Fast Food & Restaurant HTML Template</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet"/>
+
+    <!-- Bootstrap -->
+    <link href="{{ asset('assets/assets-guest/sarab/css/bootstrap.min.css') }}" rel="stylesheet"/>
+
+    <!-- AOS -->
+    <link href="{{ asset('assets/assets-guest/sarab/css/aos.css') }}" rel="stylesheet"/>
+
+    <!-- Swiper -->
+    <link href="{{ asset('assets/assets-guest/sarab/css/swiper-bundle.min.css') }}" rel="stylesheet"/>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="{{ asset('assets/assets-guest/sarab/css/all.min.css') }}"/>
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="{{ asset('assets/assets-guest/sarab/css/magnific-popup.css') }}"/>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="{{ asset('assets/assets-guest/sarab/css/style.css') }}"/>
+</head>
    <body>
       <!-- ============================================================
          TOP BAR
@@ -94,25 +103,25 @@
             <!-- Categories inside search box -->
             <div class="sovcats">
                <div class="sovcat active" data-cat="all">
-                  <img src="img/menu/1.jpg" alt=""/>All Items
+                  <img src="{{ asset('assets/assets-guest/sarab/img/menu/1.jpg')}}" alt=""/>All Items
                </div>
                <div class="sovcat" data-cat="burgers">
-                  <img src="img/menu/1.jpg" alt=""/>Burgers
+                  <img src="{{ asset('assets/assets-guest/sarab/img/menu/1.jpg')}}" alt=""/>Burgers
                </div>
                <div class="sovcat" data-cat="pizza">
-                  <img src="img/menu/2.jpg" alt=""/>Pizza
+                  <img src="{{ asset('assets/assets-guest/sarab/img/menu/2.jpg')}}" alt=""/>Pizza
                </div>
                <div class="sovcat" data-cat="chicken">
-                  <img src="img/menu/3.jpg" alt=""/>Chicken
+                  <img src="{{ asset('assets/assets-guest/sarab/img/menu/3.jpg')}}" alt=""/>Chicken
                </div>
                <div class="sovcat" data-cat="wraps">
-                  <img src="img/menu/4.jpg" alt=""/>Wraps
+                  <img src="{{ asset('assets/assets-guest/sarab/img/menu/4.jpg')}}" alt=""/>Wraps
                </div>
                <div class="sovcat" data-cat="pasta">
-                  <img src="img/menu/5.jpg" alt=""/>Pasta
+                  <img src="{{ asset('assets/assets-guest/sarab/img/menu/5.jpg')}}" alt=""/>Pasta
                </div>
                <div class="sovcat" data-cat="desserts">
-                  <img src="img/menu/6.jpg" alt=""/>Desserts
+                  <img src="{{ asset('assets/assets-guest/sarab/img/menu/6.jpg')}}" alt=""/>Desserts
                </div>
             </div>
             <div class="sovtrend">
@@ -163,7 +172,7 @@
                <div class="col-lg-6">
                   <div style="position:relative;text-align:center;">
                      <div class="hcircle">
-                        <img src="img/banner-img.jpg" alt="Burger"/>
+                        <img src="{{ asset('assets/assets-guest/sarab/img/banner-img.jpg')}}" alt="Burger"/>
                      </div>
                      <div class="fcard fc1">
                         <div class="fcoi r"><i class="fas fa-fire"></i></div>
@@ -213,42 +222,42 @@
             <div class="row g-3 justify-content-center">
                <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="0">
                   <div class="catcard active" data-filter="all">
-                     <img class="catimg" src="img/category/1.jpg" alt=""/>
+                     <img class="catimg" src="{{ asset('assets/assets-guest/sarab/img/menu/1.jpg')}}" alt=""/>
                      <div class="catnm">All Items</div>
                      <div class="catct">99 items</div>
                   </div>
                </div>
                <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="70">
                   <div class="catcard" data-filter="burgers">
-                     <img class="catimg" src="img/category/2.jpg" alt=""/>
+                     <img class="catimg" src="{{ asset('assets/assets-guest/sarab/img/category/2.jpg')}}" alt=""/>
                      <div class="catnm">Burgers</div>
                      <div class="catct">24 items</div>
                   </div>
                </div>
                <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="140">
                   <div class="catcard" data-filter="pizza">
-                     <img class="catimg" src="img/category/3.jpg" alt=""/>
+                     <img class="catimg" src="{{ asset('assets/assets-guest/sarab/img/category/3.jpg')}}" alt=""/>
                      <div class="catnm">Pizza</div>
                      <div class="catct">18 items</div>
                   </div>
                </div>
                <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="210">
                   <div class="catcard" data-filter="chicken">
-                     <img class="catimg" src="img/category/4.jpg" alt=""/>
+                     <img class="catimg" src="{{ asset('assets/assets-guest/sarab/img/category/4.jpg')}}" alt=""/>
                      <div class="catnm">Fried Chicken</div>
                      <div class="catct">15 items</div>
                   </div>
                </div>
                <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="280">
                   <div class="catcard" data-filter="wraps">
-                     <img class="catimg" src="img/category/5.jpg" alt=""/>
+                     <img class="catimg" src="{{ asset('assets/assets-guest/sarab/img/category/5.jpg')}}" alt=""/>
                      <div class="catnm">Wraps</div>
                      <div class="catct">12 items</div>
                   </div>
                </div>
                <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="350">
                   <div class="catcard" data-filter="desserts">
-                     <img class="catimg" src="img/category/6.jpg" alt=""/>
+                     <img class="catimg" src="{{ asset('assets/assets-guest/sarab/img/category/6.jpg')}}" alt=""/>
                      <div class="catnm">Desserts</div>
                      <div class="catct">20 items</div>
                   </div>
@@ -263,8 +272,8 @@
                <div class="col-lg-5" data-aos="fade-right">
                   <div class="astack">
                      <div class="aexp"><span class="anum">12+</span><small>Years of<br/>Excellence</small></div>
-                     <div class="amain"><img src="img/about1.jpg" alt="Restaurant"/></div>
-                     <div class="asm"><img src="img/about2.jpg" alt=""/></div>
+                     <div class="amain"><img src="{{ asset('assets/assets-guest/sarab/img/about1.jpg')}}" alt="Restaurant"/></div>
+                     <div class="asm"><img src="{{ asset('assets/assets-guest/sarab/img/about2.jpg')}}" alt=""/></div>
                   </div>
                </div>
                <div class="col-lg-7" data-aos="fade-left">
@@ -333,7 +342,7 @@
                      data-desc="Double smashed patty, cheddar cheese, caramelized onions, house pickles and our legendary special sauce. Made fresh to order on a toasted brioche bun."
                      data-tags="Spicy,Bestseller,Beef">
                      <div class="mimg">
-                        <img src="img/menu/1.jpg" alt="Smash Burger"/>
+                        <img src="{{ asset('assets/assets-guest/sarab/img/menu/1.jpg')}}" alt="Smash Burger"/>
                         <div class="mbdg hot"><i class="fas fa-star"></i> Hot</div>
                         <div class="mhrt"><i class="far fa-heart"></i></div>
                      </div>
@@ -363,7 +372,7 @@
                      data-desc="San Marzano tomatoes, fresh buffalo mozzarella, fragrant basil leaves, drizzled with Italian truffle oil on a hand-stretched sourdough base."
                      data-tags="Vegetarian,New,Italian">
                      <div class="mimg">
-                        <img src="img/menu/2.jpg" alt="Pizza"/>
+                        <img src="{{ asset('assets/assets-guest/sarab/img/menu/2.jpg')}}" alt="Pizza"/>
                         <div class="mbdg new"><i class="fas fa-star"></i> New</div>
                         <div class="mhrt"><i class="far fa-heart"></i></div>
                      </div>
@@ -393,7 +402,7 @@
                      data-desc="Extra-crispy fried chicken tossed in our signature fiery Nashville spice blend, served with honey drizzle and house pickles on a toasted brioche bun."
                      data-tags="Spicy,Bestseller,Crispy">
                      <div class="mimg">
-                        <img src="img/menu/3.jpg" alt="Chicken"/>
+                        <img src="{{ asset('assets/assets-guest/sarab/img/menu/3.jpg')}}" alt="Chicken"/>
                         <div class="mbdg"><i class="fas fa-star"></i> Best Seller</div>
                         <div class="mhrt"><i class="far fa-heart"></i></div>
                      </div>
@@ -423,7 +432,7 @@
                      data-desc="Grilled chicken strips, saut�ed bell peppers and onions, sour cream, fresh guacamole and salsa wrapped in a warm flour tortilla with melted cheddar."
                      data-tags="Grilled,Fresh,Mexican">
                      <div class="mimg">
-                        <img src="img/menu/4.jpg" alt="Wrap"/>
+                        <img src="{{ asset('assets/assets-guest/sarab/img/menu/4.jpg')}}" alt="Wrap"/>
                         <div class="mhrt"><i class="far fa-heart"></i></div>
                      </div>
                      <div class="mbody">
@@ -452,7 +461,7 @@
                      data-desc="Warm molten chocolate cake with a gooey Nutella center, served alongside Madagascar vanilla bean ice cream with salted caramel drizzle and fresh berries."
                      data-tags="Sweet,New,Chocolate">
                      <div class="mimg">
-                        <img src="img/menu/5.jpg" alt="Lava Cake"/>
+                        <img src="{{ asset('assets/assets-guest/sarab/img/menu/5.jpg')}}" alt="Lava Cake"/>
                         <div class="mbdg new"><i class="fas fa-star"></i> New</div>
                         <div class="mhrt"><i class="far fa-heart"></i></div>
                      </div>
@@ -482,7 +491,7 @@
                      data-desc="Al dente tagliatelle tossed with mixed wild mushrooms, freshly shaved black truffle, aged parmesan, fresh thyme and a touch of cream in garlic butter."
                      data-tags="Vegetarian,Chef's Pick,Italian">
                      <div class="mimg">
-                        <img src="img/menu/6.jpg" alt="Pasta"/>
+                        <img src="{{ asset('assets/assets-guest/sarab/img/menu/6.jpg')}}" alt="Pasta"/>
                         <div class="mbdg hot">Chef's Pick</div>
                         <div class="mhrt"><i class="far fa-heart"></i></div>
                      </div>
@@ -552,7 +561,7 @@
                   <div class="spimgw">
                      <div class="spglow"></div>
                      <div class="sppbdg"><span class="old">$24.99</span><span class="np">$17.49</span></div>
-                     <img src="img/off-img.jpg" alt="Special Burger"/>
+                     <img src="{{ asset('assets/assets-guest/sarab/img/off-img.jpg')}}" alt="Special Burger"/>
                   </div>
                </div>
             </div>
@@ -576,7 +585,7 @@
                   data-gimg="img/portfolio/work1.jpg"
                   data-gtitle="Gourmet Burgers"
                   data-gdesc="Our award-winning smash burgers, hand-crafted with 100% premium beef, aged cheddar and house-made sauces.">
-                  <img src="img/portfolio/work1.jpg" alt="Burgers"/>
+                  <img src="{{ asset('assets/assets-guest/sarab/img/portfolio/work1.jpg')}}" alt="Burgers"/>
                   <div class="gover"><span><i class="fas fa-expand-alt"></i> Gourmet Burgers</span></div>
                </div>
                <div class="gitem"
@@ -584,7 +593,7 @@
                   data-gimg="img/portfolio/work2.jpg"
                   data-gtitle="Wood-Fired Pizza"
                   data-gdesc="Authentic Neapolitan-style pizzas fired at 900deg F in our wood-burning stone oven for the perfect char.">
-                  <img src="img/portfolio/work2.jpg" alt="Pizza"/>
+                  <img src="{{ asset('assets/assets-guest/sarab/img/portfolio/work2.jpg')}}" alt="Pizza"/>
                   <div class="gover"><span><i class="fas fa-expand-alt"></i> Wood-Fired Pizza</span></div>
                </div>
                <div class="gitem"
@@ -592,7 +601,7 @@
                   data-gimg="img/portfolio/work3.jpg"
                   data-gtitle="Crispy Fried Chicken"
                   data-gdesc="Double-brined, hand-battered chicken fried to golden perfection using our 15-spice secret blend.">
-                  <img src="img/portfolio/work3.jpg" alt="Chicken"/>
+                  <img src="{{ asset('assets/assets-guest/sarab/img/portfolio/work3.jpg')}}" alt="Chicken"/>
                   <div class="gover"><span><i class="fas fa-expand-alt"></i> Crispy Fried Chicken</span></div>
                </div>
                <div class="gitem"
@@ -600,7 +609,7 @@
                   data-gimg="img/portfolio/work4.jpg"
                   data-gtitle="Sweet Desserts"
                   data-gdesc="Handcrafted desserts - from molten lava cakes to artisan ice cream sundaes and seasonal pastries.">
-                  <img src="img/portfolio/work4.jpg" alt="Desserts"/>
+                  <img src="{{ asset('assets/assets-guest/sarab/img/portfolio/work4.jpg')}}" alt="Desserts"/>
                   <div class="gover"><span><i class="fas fa-expand-alt"></i> Sweet Desserts</span></div>
                </div>
                <div class="gitem"
@@ -608,7 +617,7 @@
                   data-gimg="img/portfolio/work5.jpg"
                   data-gtitle="Fresh Wraps &amp; Rolls"
                   data-gdesc="Loaded fresh wraps packed with grilled proteins, crunchy vegetables and our house-made sauces.">
-                  <img src="img/portfolio/work5.jpg" alt="Wraps"/>
+                  <img src="{{ asset('assets/assets-guest/sarab/img/portfolio/work5.jpg')}}" alt="Wraps"/>
                   <div class="gover"><span><i class="fas fa-expand-alt"></i> Fresh Wraps &amp; Rolls</span></div>
                </div>
             </div>
@@ -724,7 +733,7 @@
                <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
                   <div class="chcard">
                      <div class="chimg">
-                        <img src="img/chefs/1.jpg" alt=""/>
+                        <img src="{{ asset('assets/assets-guest/sarab/img/chefs/1.jpg')}}" alt=""/>
                         <div class="chsoc"><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-twitter"></i></a></div>
                      </div>
                      <div class="chbody">
@@ -737,7 +746,7 @@
                <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="80">
                   <div class="chcard">
                      <div class="chimg">
-                        <img src="img/chefs/2.jpg" alt=""/>
+                        <img src="{{ asset('assets/assets-guest/sarab/img/chefs/2.jpg')}}" alt=""/>
                         <div class="chsoc"><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-twitter"></i></a></div>
                      </div>
                      <div class="chbody">
@@ -750,7 +759,7 @@
                <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="160">
                   <div class="chcard">
                      <div class="chimg">
-                        <img src="img/chefs/3.jpg" alt=""/>
+                        <img src="{{ asset('assets/assets-guest/sarab/img/chefs/3.jpg')}}" alt=""/>
                         <div class="chsoc"><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-twitter"></i></a></div>
                      </div>
                      <div class="chbody">
@@ -763,7 +772,7 @@
                <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="240">
                   <div class="chcard">
                      <div class="chimg">
-                        <img src="img/chefs/4.jpg" alt=""/>
+                        <img src="{{ asset('assets/assets-guest/sarab/img/chefs/4.jpg')}}" alt=""/>
                         <div class="chsoc"><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-twitter"></i></a></div>
                      </div>
                      <div class="chbody">
@@ -864,7 +873,7 @@
                         <div class="tess"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                         <p class="testxt">Honestly the best burgers I've ever had. The smash burger is incredible - perfectly crispy edges, juicy inside, and those pickles! We come every Friday now.</p>
                         <div class="tesauth">
-                           <img src="img/testimonial/1.jpg" alt=""/>
+                           <img src="{{ asset('assets/assets-guest/sarab/img/testimonial/1.jpg')}}" alt=""/>
                            <div>
                               <div class="tesnm">Monica Wilber</div>
                               <div class="tesrl">Regular Customer</div>
@@ -878,7 +887,7 @@
                         <div class="tess"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                         <p class="testxt">Ordered delivery and the food arrived hot and fresh in 22 minutes. Portions are generous. Sarab has become my go-to comfort food spot without question.</p>
                         <div class="tesauth">
-                           <img src="img/testimonial/2.jpg" alt=""/>
+                           <img src="{{ asset('assets/assets-guest/sarab/img/testimonial/2.jpg')}}" alt=""/>
                            <div>
                               <div class="tesnm">Cameron Fox</div>
                               <div class="tesrl">Food Blogger</div>
@@ -892,7 +901,7 @@
                         <div class="tess"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                         <p class="testxt">The truffle pasta blew my mind. I didn't expect that quality from a fast food place. Great ambiance, super friendly staff. Highly recommended!</p>
                         <div class="tesauth">
-                           <img src="img/testimonial/3.jpg" alt=""/>
+                           <img src="{{ asset('assets/assets-guest/sarab/img/testimonial/3.jpg')}}" alt=""/>
                            <div>
                               <div class="tesnm">Priya Sharma</div>
                               <div class="tesrl">Food Enthusiast</div>
@@ -906,7 +915,7 @@
                         <div class="tess"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                         <p class="testxt">Catered our office party of 50 people and everything was flawless. Fresh, delicious, on time and well presented. Nashville chicken was the absolute star!</p>
                         <div class="tesauth">
-                           <img src="img/testimonial/4.jpg" alt=""/>
+                           <img src="{{ asset('assets/assets-guest/sarab/img/testimonial/4.jpg')}}" alt=""/>
                            <div>
                               <div class="tesnm">David Park</div>
                               <div class="tesrl">Corporate Client</div>
@@ -1013,7 +1022,7 @@
                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                   <div class="blcard">
                      <div class="blimg">
-                        <img src="img/blog/1.jpg" alt=""/>
+                        <img src="{{ asset('assets/assets-guest/sarab/img/blog/1.jpg')}}" alt=""/>
                         <div class="bldatebdg"><span class="bd">14</span><span class="bm">Mar</span></div>
                      </div>
                      <div class="blbody">
@@ -1027,7 +1036,7 @@
                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="80">
                   <div class="blcard">
                      <div class="blimg">
-                        <img src="img/blog/2.jpg" alt=""/>
+                        <img src="{{ asset('assets/assets-guest/sarab/img/blog/2.jpg')}}" alt=""/>
                         <div class="bldatebdg"><span class="bd">28</span><span class="bm">Feb</span></div>
                      </div>
                      <div class="blbody">
@@ -1041,7 +1050,7 @@
                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="160">
                   <div class="blcard">
                      <div class="blimg">
-                        <img src="img/blog/3.jpg" alt=""/>
+                        <img src="{{ asset('assets/assets-guest/sarab/img/blog/3.jpg')}}" alt=""/>
                         <div class="bldatebdg"><span class="bd">05</span><span class="bm">Jan</span></div>
                      </div>
                      <div class="blbody">
@@ -1215,16 +1224,21 @@
       <button id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})"><i class="fas fa-chevron-up"></i></button>
 
 	<!-- jQuery -->
-      <script src="js/jquery-3.7.1.min.js"></script>
-      <!-- Bootstrap 5 -->
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <!-- AOS -->
-      <script src="js/aos.js"></script>
-      <!-- Swiper -->
-      <script src="js/swiper-bundle.min.js"></script>
-      <!-- CounterUp -->
-      <script src="js/jquery.magnific-popup.min.js"></script>
-      <!-- Main js -->
-      <script src="js/main.js"></script>
+      <script src="{{ asset('assets/assets-guest/sarab/js/jquery-3.7.1.min.js') }}"></script>
+
+<!-- Bootstrap 5 -->
+<script src="{{ asset('assets/assets-guest/sarab/js/bootstrap.bundle.min.js') }}"></script>
+
+<!-- AOS -->
+<script src="{{ asset('assets/assets-guest/sarab/js/aos.js') }}"></script>
+
+<!-- Swiper -->
+<script src="{{ asset('assets/assets-guest/sarab/js/swiper-bundle.min.js') }}"></script>
+
+<!-- CounterUp -->
+<script src="{{ asset('assets/assets-guest/sarab/js/jquery.magnific-popup.min.js') }}"></script>
+
+<!-- Main js -->
+<script src="{{ asset('assets/assets-guest/sarab/js/main.js') }}"></script>
    </body>
 </html>
