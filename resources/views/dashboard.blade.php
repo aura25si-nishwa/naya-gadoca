@@ -39,7 +39,7 @@
             <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
                <div class="top-contact d-flex flex-wrap">
                   <span><i class="fas fa-phone-alt"></i>+1 (800) 123-4567</span>
-                  <span><i class="fas fa-envelope"></i>hello@sarabfood.com</span>
+                  <span><i class="fas fa-envelope"></i>hello@coffeshopGadoca.com</span>
                   <span><i class="fas fa-map-marker-alt"></i>42 Flavor Street, NY</span>
                </div>
                <div class="d-flex align-items-center gap-3">
@@ -61,10 +61,12 @@
          <div class="container">
             <a class="navbar-brand" href="#">
                <div class="blogo">
-                  <div class="bico"><i class="fas fa-utensils"></i></div>
+                  <div class="bico"><div class="ico">
+    <img src="{{ asset('assets-guest/sarab/img/logo-gadoca.png') }}" alt="Gadoca"></div>
                   <div>
-                     <div class="bname">Sar<span>ab</span></div>
-                     <div class="bsub">Fast Food & Restaurant</div>
+
+                     <div class="bname">gad<span>oca</span></div>
+                     <div class="bsub">coffeshop & house</div>
                   </div>
                </div>
             </a>
